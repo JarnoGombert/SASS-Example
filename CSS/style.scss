@@ -3,6 +3,10 @@
 @import 'mixins';
 @import 'card';
 
+html{
+    margin: 0 auto;
+}
+
 body {
     font-family: $fonts;
     background-color: $primary-color;
@@ -12,6 +16,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 body section{
     display: flex;
 }
