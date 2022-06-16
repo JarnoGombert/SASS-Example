@@ -2,13 +2,16 @@
 @import 'variables';
 @import 'mixins';
 @import 'card';
-   
+
 body {
     font-family: $fonts;
     background-color: $primary-color;
     padding: $spacing;
     min-height: 100vh;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
+    // overflow: auto;
+    // overflow-x: hidden;
+    flex-wrap: wrap;
 }
